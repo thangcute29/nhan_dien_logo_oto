@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['hyundai', 'lexus', 'mazda', 'mercedes', 'opel', 'skoda', 'toyota', 'volkswagen']
+
+roboflow:
+  workspace: xun-thng-x9pv1
+  project: nhan-biet-logo-o-to-0yjku
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xun-thng-x9pv1/nhan-biet-logo-o-to-0yjku/dataset/4
